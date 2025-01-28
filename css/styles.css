@@ -953,7 +953,7 @@ border-radius: 4px;
 
 .form-checkbox:checked + .checkbox-label .checkbox-svg {
   fill: #F4F4FD; /* Цвет иконки при checked */
-  fill: var(--icon-color, #F4F4FD); 
+  /* fill: var(--icon-color, #F4F4FD);  */
 }
 
 .form-button {
