@@ -951,14 +951,7 @@ border-radius: 4px;
 .form-checkbox:checked + .checkbox-label .checkbox-icon {
   background-color: var(--checked-bg-color, #404bbf); /* Фон при checked */
   border: none; /* Убираєм рамку */
-}
-
-.form-checkbox:checked + .checkbox-label .checkbox-svg {
-  /* fill:  #F4F4FD;; колір іконки при checked 
-     fill: var(--checked-bg-color, #404bbf);*/
-     /* fill: var(--icon-color);  */
-
-     fill: #404bbf;   
+  fill: #404bbf;  
 }
 
 .form-button {
