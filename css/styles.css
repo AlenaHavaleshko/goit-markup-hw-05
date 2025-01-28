@@ -658,12 +658,12 @@ max-width: 264px;
  }
 
  .footer-button {
-  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   min-width: 165px;
   height: 40px;
-  padding: 8px 24px;
+  padding: 8px 0px;
 
   border-radius: 4px;
   background-color: #4D5AE5;
@@ -685,15 +685,15 @@ max-width: 264px;
  }
 
  .footer-svg {
-  display: inline-block;
+  /* display: inline-block;
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 20px; */
   fill: #FFFFFF;
+  margin-left: 16px;
  }
 
  /* -------modal----------- */
-
 
    .backdrop {
   position: fixed;
@@ -709,7 +709,7 @@ max-width: 264px;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
-  
+
 
 .backdrop.is-open {
   opacity: 1;
@@ -920,7 +920,6 @@ border-radius: 4px;
   position: absolute;
   top: -1px;
   left: 0px;
-
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -953,7 +952,7 @@ border-radius: 4px;
 }
 
 .form-checkbox:checked + .checkbox-label .checkbox-icon svg {
-  fill: var(--icon-color, #F4F4FD); /* Цвет иконки при checked */
+  fill: #F4F4FD; /* Цвет иконки при checked */
 }
 
 .form-button {
