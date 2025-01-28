@@ -1,7 +1,8 @@
   :root {
     --text-color-overlay: #f4f4fd;
+    --checked-bg-color: #404bbf;
+    --icon-color: #F4F4FD;
   }
-
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -9,7 +10,6 @@
 
 body {
  font-family: 'Roboto', sans-serif; 
- /* font-family: 'Roboto', sans-serif; */
  background-color: E5E5E5;
  color: #fff;
 }
@@ -952,7 +952,7 @@ border-radius: 4px;
 }
 
 .form-checkbox:checked + .checkbox-label .checkbox-svg {
-  fill: #F4F4FD; /* Цвет иконки при checked */
+  fill: var(--icon-color); /* Цвет иконки при checked */
   /* fill: var(--icon-color, #F4F4FD);  */
 }
 
