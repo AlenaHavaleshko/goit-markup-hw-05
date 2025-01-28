@@ -952,7 +952,7 @@ border-radius: 4px;
 }
 
 .form-checkbox:checked + .checkbox-label .checkbox-svg {
-  fill: var(--icon-color); /* Цвет иконки при checked */
+  fill:  #F4F4FD;; /* Цвет иконки при checked */
   /* fill: var(--icon-color, #F4F4FD);  */
 }
 
