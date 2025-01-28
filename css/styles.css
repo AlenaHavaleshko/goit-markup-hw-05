@@ -920,15 +920,15 @@ border-radius: 4px;
   position: absolute;
   top: -1px;
   left: 0px;
+  width: 16px;
+  height: 16px;
   display: inline-flex;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  background-color: #FFFFFF;
-  width: 16px;
-  height: 16px;
+
   cursor: pointer;
   transition: 
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
@@ -951,8 +951,9 @@ border-radius: 4px;
   border: none; /* Убираем рамку */
 }
 
-.form-checkbox:checked + .checkbox-label .checkbox-icon svg {
+.form-checkbox:checked + .checkbox-label .checkbox-svg {
   fill: #F4F4FD; /* Цвет иконки при checked */
+  fill: var(--icon-color, #F4F4FD); 
 }
 
 .form-button {
