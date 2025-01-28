@@ -721,9 +721,12 @@ max-width: 264px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%); /* це вирівнює по центру елемент*/ 
+
   min-height: 584px;
-  width: 408px;
+  width: 408px; 
+
+
   background-color: #fcfcfc;
   border-radius: 4px;
   padding:72px 24px 24px 24px;
@@ -899,9 +902,9 @@ border-radius: 4px;
 }
 
 .checkbox-label {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   color: #8E8F99;
   font-size: 12px;
   font-weight: 400;
@@ -952,7 +955,8 @@ border-radius: 4px;
 }
 
 .form-checkbox:checked + .checkbox-label .checkbox-svg {
-  /* fill:  #F4F4FD;; колір іконки при checked */
+  /* fill:  #F4F4FD;; колір іконки при checked 
+     fill: var(--checked-bg-color, #404bbf);*/
    fill: var(--icon-color);  
 }
 
