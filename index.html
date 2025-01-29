@@ -61,7 +61,7 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="header-button" type="button">
+          <button class="header-button" type="button" data-modal-open>
             <span class="hero-button-text">Order Service</span>
           </button>
         </div>
@@ -503,9 +503,9 @@
 
     <!------ modal ------->
 
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-closed">
+        <button type="button" class="modal-closed" data-modal-close>
           <svg class="modal-closed-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -515,6 +515,7 @@
         </p>
 
         <form class="modal-form">
+
           <div class="form-field">
             <label for="user-name" class="modal-label">Name</label>
             <div class="input-container">
@@ -568,6 +569,7 @@
               id="user-privacy"
             />
             <label for="user-privacy" class="checkbox-label">
+              
               <span class="checkbox-icon">
                 <svg class="checkbox-svg" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
@@ -637,5 +639,7 @@
       </label>
       <button type="submit" class="modal-button">Send</button>
     </form> -->
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
